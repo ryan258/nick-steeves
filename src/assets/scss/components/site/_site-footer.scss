@@ -1,0 +1,24 @@
+.site-footer {
+  background: $dark-brown;
+
+  h2, h3 {
+    color: $white;
+  }
+}
+
+.cell {
+  &-about {
+    h2 {
+      font-family: $font-family-lobster;
+    }
+    p {
+      color: $white;
+    }
+    ul {
+      color: $white;
+    }
+    .fab {
+      font-size: 1.5rem;
+    }
+  }
+}

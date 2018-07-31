@@ -1,0 +1,43 @@
+@for $i from 0 through 3 {
+  $margin: ($i);
+
+  .mb#{$i} {
+    margin-bottom: $margin+rem !important;
+  }
+}
+
+
+.text-center {
+  text-align: center;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: center;
+  height: 90vh; //70vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+.justify-content-center {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.align-self {
+  &-left {
+    align-self: flex-start;
+  }
+  &-center {
+    align-self: center; }
+  &-right {
+    align-self: flex-end;
+  }
+}
+
+.bg {
+  &-black {
+    background-color: $black;
+    color: $white;
+  }
+}

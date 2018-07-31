@@ -1,0 +1,12 @@
+.section-features {
+  background-color: $white;
+
+  h2, h3 {
+    font-family: $font-family-lobster;
+  }
+
+  h3 {
+    border-top: 1px solid $dark-brown;
+    padding-top: .75rem;
+  }
+}
