@@ -36,6 +36,15 @@
 }
 @media screen and (max-width: 400px) {
   .site-header {
-    height: 100vh;
+    height: 80vh;
+    h2 {
+      font-size: 2rem;
+      text-shadow: 3px 2px $black;
+      margin-top: 2rem;
+    }
+    .lead {
+      font-size: 1.5rem;
+      text-shadow: 3px -3px $black;
+    }
   }
 }
