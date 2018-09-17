@@ -7,7 +7,8 @@
 }
 
 .cell {
-  &-about {
+  &-about,
+  &-hours {
     h2 {
       font-family: $font-family-lobster;
     }
